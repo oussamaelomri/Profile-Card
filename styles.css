@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* Start Variables */
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 8%, 87%);
+}
+/* End Variables */
+
+/* Start Globale Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    color: var(--Very-dark-desaturated-blue);
+    background-color: var(--Dark-cyan);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position: top -26.25rem left -11.25rem, bottom -26.25rem right -11.25rem;
+}
+@media (max-width: 47.9375rem) {
+    body {
+        background-size: 50rem;
+        background-repeat: no-repeat;
+        background-position: top -32.5rem left -31.25rem, bottom -31.25rem right -32.5rem;
+    }
+}
+a {
+    text-decoration: none;
+}
+/* End Globale Rules */
+/* Start main */
+main {
+    border-radius: 0.625rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0.625rem;
+}
+main .image {
+    height: 12.5rem;
+}
+main .image img:last-of-type {
+    position: relative;
+    border-radius: 50%;
+    border: 0.375rem solid white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -3.375rem;
+    display: block
+}
+main h1 {
+    margin-block: 1.25rem 0.625rem;
+    font-size: 1.4em;
+}
+main h1 span {
+    font-weight: lighter;
+    color: var(--Dark-grayish-blue);
+}
+main > p {
+    margin-bottom: 1.25rem;
+    color: var(--Dark-grayish-blue);
+}
+main .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.0625rem solid var(--Dark-gray);
+    padding-block: 1.25rem;
+}
+main .info h2 {
+    font-size: 1.1em;
+    margin-bottom: 0.375rem;
+}
+main .info p {
+    font-size: 0.6em;
+    letter-spacing: 0.125rem;
+}
+/* End main */
