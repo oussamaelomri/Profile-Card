@@ -15,13 +15,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop screenshot](desktop_screenshot.jpg)
-![Mobile screenshot](mobile_screenshot.jpg)
+![Desktop screenshot](desktop_screenshot.png)
+![Mobile screenshot](mobile_screenshot.png)
 
 ### Links
 
 - Solution URL: [Github](https://github.com/oussamaelomri/Profile-Card)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://oussamaelomri.github.io/Profile-Card/)
 
 ## My process
 
